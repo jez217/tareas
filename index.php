@@ -34,7 +34,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0"><?php echo $title ?> | ConfiguroWeb</h1>
+            <h1 class="m-0"><img src="./assets/uploads/logo_dagit.png" alt="" width="50">|<?php echo $title ?></h1>
           </div><!-- /.col -->
 
         </div><!-- /.row -->
@@ -122,7 +122,8 @@
 
   <!-- Main Footer -->
   <footer class="main-footer">
-    <strong>Para más desarrollos accede a <a href="https://configuroweb.com/">ConfiguroWeb</a></strong>
+    <strong>Somos DAGIT   <img src="./assets/uploads/logo_dagit.png" alt="logo dagit" width="20">
+    </strong>
     <div class="float-right d-none d-sm-inline-block">
       <b><?php echo $_SESSION['system']['name'] ?></b>
     </div>

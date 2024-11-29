@@ -1,5 +1,7 @@
 <!-- Navbar -->
-  <nav class="main-header navbar navbar-expand navbar-primary navbar-dark ">
+
+
+  <nav class="main-header navbar navbar-expand navbar-dark " style="background-image: linear-gradient( 135deg, #6f758f 10%, #123597 100%);">
     <!-- Left navbar links -->
     <ul class="navbar-nav">
       <?php if(isset($_SESSION['login_id'])): ?>
@@ -18,7 +20,11 @@
         <a class="nav-link" data-widget="fullscreen" href="#" role="button">
           <i class="fas fa-expand-arrows-alt"></i>
         </a>
-      </li>
+
+      </li>      
+      
+      <img src="./assets/uploads/logo_dagit.png" alt="" width="40">
+
      <li class="nav-item dropdown">
             <a class="nav-link"  data-toggle="dropdown" aria-expanded="true" href="javascript:void(0)">
               <span>

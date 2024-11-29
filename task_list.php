@@ -1,6 +1,6 @@
 <?php include'db_connect.php' ?>
 <div class="col-lg-12">
-	<div class="card card-outline card-success">
+	<div class="card card-outline card-primary">
 		<div class="card-header">
 			<?php if($_SESSION['login_type'] == 2): ?>
 			<div class="card-tools">
